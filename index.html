@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="row">
+            <div class="col-20">
+                <div class="link">
+                    <a href="#" class="a tc">advantages</a>
+                    <hr>
+                    <a href="#" class="b tc">Container</a>
+                    <hr>
+                    <a href="#" class="c tc">text settings</a>
+                    <hr>
+                    <a href="#" class="d tc">about Grid System</a>
+                    <hr>
+                    <a href="#" class="e tc">Bootstrap 4 V/S Bootstrap 5 </a>
+                    <hr>
+                    <a href="#" class="f tc">Button Group</a>
+                    <hr>
+                    <a href="#" class="g tc">thumbnails</a>
+                    <hr>
+                    <a href="#" class="h tc">Bootstrap 4 flexbox</a>
+                    <hr>
+                    <a href="#" class="i tc">alert</a>
+                    <hr>
+                    <a href="#" class="j tc">card</a>
+
+                </div>
+            </div>
+            <div class="col-80">
+                <h1 class="tc">Module (Bootstrap Basic & Advanced) – 6</h1>
+                <p class="title bounce">BOOTSTRAP ASSIGMENT</p>
+                <div class="que1 dis">
+                    <div class="que">
+                        <h2>What are the advantages of Bootstrap? </h2>
+                    </div>
+                    <div class="ans">
+                        <p class="highlight">Responsive Design</p>
+                        <p>&#8608Bootstrap includes a responsive grid system that adjusts your web pages to look good on
+                            all devices, from phones to tablets to desktops.</p>
+                        <p>&#8608This means you can build your site once and it works seamlessly across all device types
+                            without extra effort.</p><br>
+                        <p class="highlight">Pre-designed Components</p>
+                        <p>&#8608It comes packed with a range of ready-to-use components such as buttons, navigation
+                            bars, modals, dropdowns, alerts, and much more.</p><br>
+                        <p class="highlight">Customizable</p>
+                        <p>&#8608Bootstrap can be easily customized to fit the specific needs of your project and You
+                            can choose which components to include, change the default theme, and use its LESS/SASS
+                            files to create a unique design.</p><br>
+                        <p class="highlight">Utility Classes and JavaScript Plugins</p>
+                        <p>&#8608Bootstrap includes a wide array of utility classes for common CSS tasks, such as margin
+                            and padding adjustments, text alignment, and color.</p>
+                        <p>&#8608It also offers JavaScript plugins for adding interactive elements like carousels,
+                            modals, and tooltips without requiring deep JavaScript knowledge.</p><br>
+                        <p class="highlight">Accessibility Features</p>
+                        <p>&#8608Bootstrap includes features designed to make web pages more accessible to users with
+                            disabilities, such as ARIA attributes and keyboard navigation support</p>
+                    </div>
+                </div>
+                <div class="que2  dis">
+                    <div class="que">
+                        <h2>What is a Bootstrap Container, and how does it work?</h2>
+                    </div>
+                    <div class="ans">
+                        <p>&#8608A Bootstrap Container is a fundamental building block in the Bootstrap framework,
+                            designed to contain, pad, and align your content within a webpage.</p>
+                        <p>&#8608 It is used to set the content's margins dealing with the responsive and fluid layout
+                            of your web pages. Containers are the most basic layout element in Bootstrap and are
+                            required when using its default grid system.</p><br>
+                        <p class="ex">Types of Containers in Bootstrap</p>
+                        &#8627<p>
+                        <p class="highlight">container</p>
+                        <p>&#8608This class provides a responsive fixed-width container, meaning it changes its width at
+                            different breakpoints to adapt to the size of the device screen, but the maximum width is
+                            fixed at each breakpoint.</p>
+                        <p class="highlight">container-fluid</p>
+                        <p>&#8608This class provides a full-width container, spanning the entire width of the viewport.
+                            It's fluid and will always take up the full width available, regardless of the device or
+                            screen size.</p><br>
+
+                        <p class="ex">How Containers Work</p>
+                        &#8627<p></p>
+                        <p class="highlight">Padding</p>
+                        <p>&#8608Containers include a bit of padding to prevent the content from touching the edges of
+                            the screen, providing a better user experience.</p>
+                        <p class="highlight">Centering</p>
+                        <p>&#8608 The .container class centers your content horizontally within the parent element. It
+                            does this by setting the margin-right and margin-left to auto, which effectively centers the
+                            div if it has a specified width.</p>
+                        <p class="highlight">Responsive Breakpoints</p>
+                        <p>&#8608The .container adjusts its width based on predefined breakpoints (e.g., xs, sm, md, lg,
+                            xl, xxl in Bootstrap 5), catering to different screen sizes. At each breakpoint, the
+                            container's maximum width changes to adapt to the screen, ensuring that the content is
+                            readable and accessible on any device.</p>
+                    </div>
+                </div>
+                <div class="que3  dis">
+                    <div class="que">
+                        <h2>What are the default Bootstrap text settings? </h2>
+                    </div>
+                    <div class="ans">
+                        <p class="highlight">Font Family</p>
+                        <p>&#8608Bootstrap sets the default font family to the system's default sans-serif font, which
+                            is typically used for better readability on various devices</p>
+                        <br>
+                        <p class="highlight">Font Size</p>
+                        <p>&#8608Bootstrap applies a base font size of 16 pixels (1rem) to the &lt;body&gt;element. Text
+                            sizes are then defined using relative units like em or rem for responsiveness.</p>
+                        <br>
+                        <p class="highlight">Font Weight</p>
+                        <p>&#8608The default font weight for regular text is typically normal (400), and for headings,
+                            it may vary depending on the specific heading level.</p>
+                        <br>
+                        <p class="highlight">Line Height</p>
+                        <p>&#8608Bootstrap sets a comfortable line height for better readability. The default is usually
+                            around 1.5, creating space between lines of text.</p>
+                        <br>
+                        <p class="highlight">Text Color</p>
+                        <p>&#8608The default text color is usually black or a dark color for better contrast on a light
+                            background. Link colors may be different to distinguish them from regular text.</p>
+                        <br>
+                        <p class="highlight">Text Alignment</p>
+                        <p>&#8608The default text alignment is left-aligned (text-left). However, Bootstrap provides
+                            utility classes for different alignments, such as text-center, text-right, and text-justify.
+                        </p>
+                        <br>
+                        <p class="highlight">Text Decoration</p>
+                        <p>&#8608Links are often styled with the default text decoration of underline, and Bootstrap
+                            provides utility classes like text-decoration-none to remove the underline.</p>
+                        <br>
+                        <p class="highlight">Font Style</p>
+                        <p>&#8608The default font style is usually normal. Bootstrap does not typically apply italic
+                            styling by default, but you can use utility classes like font-italic to apply italic
+                            styling.</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="que4  dis">
+                    <div class="que">
+                        <h2> What do you know about the Bootstrap Grid System?</h2>
+                    </div>
+                    <div class="ans">
+                        <p>&#8608The grid system is based on a 12-column layout, and it uses a combination of
+                            containers, rows, and columns to structure the content on a web page.</p>
+                        <p class="highlight">Key features of the Bootstrap Grid System:</p>
+                        <p class="highlight">12-Column Layout</p>
+                        <p>&#8608The grid system is based on a 12-column layout, allowing developers to create
+                            responsive designs by dividing the page into 12 equal-width columns.</p>
+                        <br>
+                        <p class="highlight">Responsive Design</p>
+                        <p>&#8608The Bootstrap Grid System is designed with a mobile-first approach, meaning that the
+                            layout is initially optimized for smaller screens and can then be scaled up for larger
+                            screens.</p>
+                        <p>&#8608It uses a combination of media queries and flexible, fluid grids to adjust the layout
+                            based on the screen size.</p>
+                        <br>
+                        <p class="highlight">Container and Rows</p>
+                        <p>&#8608The grid system is structured using containers and rows. The container is the outermost
+                            element that holds and centers the grid.</p>
+                        <p>&#8608Rows are used to contain columns, and they ensure proper alignment and spacing. Each
+                            row consists of up to 12 columns.</p>
+                        <br>
+                        <p class="highlight">Column Classes</p>
+                        <p>&#8608Bootstrap provides classes such as col-xs-, col-sm-, col-md-, and col-lg- to define the
+                            width of columns at different screen sizes.</p>
+                        <p>&#8608Rows are used to contain columns, and they ensure proper alignment and spacing. Each
+                            row consists of up to 12 columns.</p>
+                        <br>
+                        <p class="highlight">Alignment and Justification</p>
+                        <p>&#8608Bootstrap provides classes for aligning and justifying content within columns, such as
+                            justify-content-start, justify-content-center, align-items-end, etc.</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="que5  dis">
+                    <div class="que">
+                        <h2>What is the difference between Bootstrap 4 and Bootstrap 5</h2>
+                    </div>
+                    <div class="ans">
+                        <table border="2">
+                            <tr>
+                                <th>Bootstrap 4</th>
+                                <th>Bootstrap 5</th>
+                            </tr>
+                            <tr>
+                                <td>It has 5 tier (xs, sm, md, lg, xl).</td>
+                                <td>It has 6 tier (xs, sm, md, lg, xl, xxl).</td>
+                            </tr>
+                            <tr>
+                                <td>It has limited colors.</td>
+                                <td>Extra colors added with the looks, A card improved color palette. there are various
+                                    shades available to choose.</td>
+                            </tr>
+                            <tr>
+                                <td>It has jquery and all related plugins.</td>
+                                <td>Jquery is removed and switched to vanilla JS with some working plugins</td>
+                            </tr>
+                            <tr>
+                                <td>Bootstrap 4 supports both IE 10 and 11.</td>
+                                <td>Bootstrap 5 doesn’t support IE 10 and 11.</td>
+                            </tr>
+                            <tr>
+                                <td>We cannot modify utilities in bootstrap 4</td>
+                                <td>Bootstrap 5 gave freedom to modify and also create our own utility</td>
+                            </tr>
+                            <tr>
+                                <td>We use .glutter with fontsize in px</td>
+                                <td>We use .g* with fontsize in rem</td>
+                            </tr>
+                            <tr>
+                                <td>Columns can be positioned relative</td>
+                                <td>Columns cannot be positioned relative</td>
+                            </tr>
+                            <tr>
+                                <td>It support jumbotron.</td>
+                                <td>It doesn’t support jumbotron.</td>
+                            </tr>
+                            <tr>
+                                <td>We have inline-block property and we will get white dropdown as default for
+                                    dropdown-menu-dark class.</td>
+                                <td>Inline-block property is removed and we will get black dropdown as default for
+                                    dropdown-menu-dark class.</td>
+                            </tr>
+                            <tr>
+                                <td>Bootstrap 4 uses Jekyll software.</td>
+                                <td>Bootstrap 5 uses Hugo software as it is fast static site generator.</td>
+                            </tr>
+                            <tr>
+                                <td>It does not support Offcanvas Component.</td>
+                                <td>It supports Offcanvas Component(that is it is available now).</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="que6  dis">
+                    <div class="que">
+                        <h2>What is a Button Group, and what is the class for a basic Button Group?</h2>
+                    </div>
+                    <div class="ans">
+                        <p>&#8608 A Button Group is a component used in UI design to group a series of buttons together
+                            on a
+                            single line. </p>
+                        <p>&#8608 For example, a button group might be used to group together the controls for playing,
+                            pausing, and skipping tracks in a music player interface, or to group alignment options in a
+                            text editor.</p>
+                        <br>
+                        <p>&#8608To create a basic button group in Bootstrap, you use the .btn-group class.</p>
+                        <p>&#8608You apply this class to a &lt;div&gt; element that wraps around the &lt;button&gt;
+                            elements you want to group. </p>
+                        <p>&#8608Each button within the group is typically given the .btn class, along with any
+                            additional classes to specify the button's appearance </p>
+                        <p class="ex">Example</p>
+                        <p>&lt;div class="btn-group" role="group" aria-label="Basic example"&gt;</p>
+                        <p>&lt;button type="button" class="btn btn-primary"&gt;Left&lt;/button&gt;</p>
+                        <p>&lt;button type="button" class="btn btn-primary"&gt;Middle&lt;/button&gt;</p>
+                        <p>&lt;button type="button" class="btn btn-primary"&gt;Right&lt;/button&gt;</p>
+                        <p>&lt;/div&gt;</p>
+                    </div>
+                </div>
+                <div class="que7  dis">
+                    <div class="que">
+                        <h2>How can you use Bootstrap to make thumbnails? </h2>
+                    </div>
+                    <div class="ans">
+                        <p>&#8608Using Bootstrap to create thumbnails is a straightforward process, thanks to its grid
+                            system and built-in classes. </p>
+                        <p>&#8608Thumbnails can be used to display a collection of images, videos, or other content in a
+                            grid-like structure, which is responsive and adjusts to the screen size of the device being
+                            used to view the content.</p><br>
+                        <p class="ex">Example</p>
+                        &#8627 <p></p>
+                        <p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-4 size">
+                                                <div class="card">
+                                                    <img src="./thumbnails.jpeg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Thumbnail title</h5>
+                                                        <p class="card-text">Some quick example text to build on the
+                                                            card title and
+                                                            make up the bulk of the card's content.</p>
+                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <img src="./thumbnail_code.png" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="que8  dis">
+                    <div class="que">
+                        <h2>In Bootstrap 4, what is flexbox?</h2>
+                    </div>
+                    <div class="ans">
+                        <p>&#8608In Bootstrap 4, Flexbox is a layout model that provides a more efficient way to lay
+                            out, align, and distribute space among items in a container, even when their size is unknown
+                            or dynamic.</p><br>
+                        <p class="highlight">Easier Alignment</p>
+                        <p>&#8608 Flexbox makes it straightforward to align items vertically and horizontally using
+                            properties like align-items, justify-content, and align-self.</p>
+                        <p class="highlight">Consistent Spacing:</p>
+                        <p>&#8608Managing spacing between items is simpler with properties like gap, making it easier to
+                            maintain consistent spacing in layouts.</p>
+                        <p class="highlight">Dynamic Containers</p>
+                        <p>&#8608Flex containers can expand and contract to best fill the available space in a variety
+                            of display environments.</p>
+                        <p class="highlight">Ordering and Orientation</p>
+                        <p>&#8608You can easily reorder flex items without changing the HTML structure, and adjust their
+                            orientation with the flex-direction property.</p>
+                        <p class="highlight">Nested Flex Containers</p>
+                        <p>&#8608Flexbox allows for flex containers to be nested within each other, providing complex
+                            layout structures that are both powerful and flexible.</p><br>
+                        <p class="ex">Example</p>
+                        &#8627 <p></p>
+                        <p>&lt;div class="d-flex justify-content-center align-items-center"&gt;</p>
+                        <p>&lt;div class="p-2"&gt;Flex item 1&lt;/div&gt;</p>
+                        <p>&lt;div class="p-2"&gt;Flex item 2&lt;/div&gt;</p>
+                        <p>&lt;div class="p-2"&gt;Flex item 3&lt;/div&gt;</p>
+                        <p>&lt;/div&gt;</p><br>
+                        <p class="ex">Flexbox Utilities in Bootstrap 4</p>
+                        <p>&#8608Display properties (e.g., d-flex, d-inline-flex)</p>
+                        <p>&#8608Direction (flex-row, flex-column)</p>
+                        <p>&#8608Justify content (justify-content-start, justify-content-end, justify-content-center,
+                            justify-content-between, justify-content-around)</p>
+                        <p>&#8608Align items (align-items-start, align-items-end, align-items-center,
+                            align-items-baseline, align-items-stretch)</p>
+                        <p>&#8608Align self (align-self-auto, align-self-start, align-self-end, align-self-center,
+                            align-self-baseline, align-self-stretch)</p>
+                        <p>&#8608Fill, grow, and shrink utilities</p>
+                        <p>&#8608Wrap and order properties</p>
+                    </div>
+                </div>
+                <div class="que9  dis">
+                    <div class="que">
+                        <h2>How can one create an alert in Bootstrap?</h2>
+                    </div>
+                    <div class="ans">
+                        <p>&#8608Creating an alert in Bootstrap is straightforward and involves using the predefined
+                            alert classes provided by Bootstrap</p>
+                        <p>&#8608Alerts are used to convey important information to the user, such as success messages,
+                            warnings, or errors.</p><br>
+                        <p class="ex">Example</p>
+                        &#8627 <p></p>
+                        <p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <iframe src="./alert.html" frameborder="0" height="500px"></iframe>
+                                </td>
+                                <td>
+                                    <img src="./alert.png" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="que10  dis">
+                    <div class="que">
+                        <h2>What is a bootstrap card and how would you create one?</h2>
+                    </div>
+                    <div class="ans">
+                        <p>&#8608
+                            A Bootstrap card is a flexible and extensible content container with multiple variants and
+                            options.</p>
+                        <p>&#8608 It includes options for headers and footers, a wide variety of content, contextual
+                            background colors, and powerful display options. Introduced in Bootstrap 4, cards replaced
+                            old components like panels, wells, and thumbnails. They are used to display information in a
+                            neat, compact format, making it easier to organize content in a visually appealing way.</p>
+                        <br>
+                        <p class="ex">Example</p>
+                        &#8627 <p></p>
+                        <p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./thumbnails.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card Title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <img src="./card.png" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let col20 = document.querySelector(".col-20");
+        let aElements = col20.querySelectorAll("a");
+
+        aElements.forEach(a => {
+            a.onclick = () => {
+                let index = a.classList[0].charCodeAt(0) - 'a'.charCodeAt(0) + 1;
+                let targetQuestion = document.querySelector(`.que${index}`);
+
+
+                document.querySelectorAll('.dis').forEach(question => {
+                    question.style.display = 'none';
+                });
+
+
+                targetQuestion.style.display = "block";
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
